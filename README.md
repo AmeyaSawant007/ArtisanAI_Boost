@@ -61,8 +61,8 @@ Hindi 🇮🇳 | Marathi | Tamil | Telugu | Bengali | Gujarati | Kannada | Malay
 
 ## 🏗️ Architecture
 
-```
-<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/d5417f13-9ee8-4ff2-8159-cb621f7737a5" />
+![WhatsApp Image 2026-03-07 at 4 54 32 PM (1)](https://github.com/user-attachments/assets/f3116b85-a8b2-4f55-9ef7-caed9dcbcc80)
+
 
 ---
 

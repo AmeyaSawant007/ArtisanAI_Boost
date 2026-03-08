@@ -62,26 +62,7 @@ Hindi 🇮🇳 | Marathi | Tamil | Telugu | Bengali | Gujarati | Kannada | Malay
 ## 🏗️ Architecture
 
 ```
-Flutter App (Android)
-       │
-       │ Base64 Image + Language
-       ▼
-AWS API Gateway
-       │
-       ▼
-AWS Lambda (Node.js)
-       │
-       ├──▶ AWS Rekognition → Detects up to 25 labels
-       │         │
-       │         ▼
-       │    Custom Matching Engine
-       │    (Weighted scoring + tiebreak logic)
-       │         │
-       │         ▼
-       ├──▶ Groq AI (Llama 3.3-70b) → Generates captions in selected language
-       │
-       └──▶ AWS DynamoDB → Stores scan history & analytics
-```
+<img width="1024" height="559" alt="image" src="https://github.com/user-attachments/assets/d5417f13-9ee8-4ff2-8159-cb621f7737a5" />
 
 ---
 

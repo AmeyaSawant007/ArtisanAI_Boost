@@ -144,6 +144,7 @@ The Lambda function uses a **custom weighted scoring engine**:
 bash
 # Clone the repo
 git clone https://github.com/AmeyaSawant007/ArtisanAI_Boost.git
+
 cd ArtisanAI_Boost
 
 # Install Flutter dependencies

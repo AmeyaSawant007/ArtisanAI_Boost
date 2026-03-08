@@ -61,8 +61,10 @@ Hindi 🇮🇳 | Marathi | Tamil | Telugu | Bengali | Gujarati | Kannada | Malay
 
 ## 🏗️ Architecture
 
-![WhatsApp Image 2026-03-07 at 4 54 32 PM (1)](https://github.com/user-attachments/assets/f3116b85-a8b2-4f55-9ef7-caed9dcbcc80)
+```
+![WhatsApp Image 2026-03-08 at 11 13 36 AM](https://github.com/user-attachments/assets/d4337cd9-3c04-42b8-bed7-114c665fc3cc)
 
+```
 
 ---
 
@@ -134,8 +136,8 @@ The Lambda function uses a **custom weighted scoring engine**:
 
 ```bash
 # Clone the repo
-git clone https://AmeyaSawant007/Y/ArtisanAI_Boost.git
-cd artisanai-boost
+git clone https://github.com/AmeyaSawant007/ArtisanAI_Boost.git
+cd ArtisanAI_Boost
 
 # Install Flutter dependencies
 flutter pub get
@@ -161,7 +163,7 @@ flutter run
 
 ## 👥 Team
 
-**Team Leader:** Ameya V. 
+**Team Leader:** Ameya V. Sawant
 **Team Members:**
 Ameya Sawant
 Siddhesh Mohite
@@ -169,7 +171,7 @@ Jatin Takke
 Yash Kate
 
 **Hackathon:** AWS AI for Bharat 2026
-**Track:** AI for Communities, Access & Public Impact
+**Track:** AI for Media, Content & Digital Experiences
 
 ---
 
@@ -177,4 +179,3 @@ Yash Kate
 
 This project was built for hackathon purposes. All rights reserved © 2026 ArtisanAI Boost Team.
 ```
-

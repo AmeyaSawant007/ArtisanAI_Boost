@@ -1,6 +1,4 @@
-***
 
-```markdown
 # 🪴 ArtisanAI Boost
 ### Empowering Indian Artisans with AI-Powered Marketing
 
@@ -61,10 +59,18 @@ Hindi 🇮🇳 | Marathi | Tamil | Telugu | Bengali | Gujarati | Kannada | Malay
 
 ## 🏗️ Architecture
 
-```
-![WhatsApp Image 2026-03-08 at 11 13 36 AM](https://github.com/user-attachments/assets/d4337cd9-3c04-42b8-bed7-114c665fc3cc)
 
-```
+
+| Step | Service | Role |
+|---|---|---|
+| 1️⃣ | 📱 Flutter App | Captures image, selects language, sends Base64 to API |
+| 2️⃣ | 🔗 AWS API Gateway | Receives request, routes to Lambda |
+| 3️⃣ | ⚡ AWS Lambda | Core backend logic, orchestrates all services |
+| 4️⃣ | 👁️ AWS Rekognition | Detects up to 25 visual labels from the image |
+| 5️⃣ | 🧠 Custom Matching Engine | Weighted scoring + disqualification + tiebreak logic |
+| 6️⃣ | 🤖 Groq AI (Llama 3.3-70b) | Generates culturally rich captions in selected language |
+| 7️⃣ | 🗄️ AWS DynamoDB | Stores scan history, analytics, trending data |
+| 8️⃣ | 📲 App Response | Returns captions, hashtags, GI tag, WhatsApp link |
 
 ---
 
@@ -98,7 +104,8 @@ artisanai-boost/
     └── lambda_function.js        # AWS Lambda handler
 ```
 
-> `amplifyconfiguration.dart` is excluded for security (contains AWS Cognito credentials).
+
+ "amplifyconfiguration.dart" is excluded for security (contains AWS Cognito credentials).
 
 ---
 
@@ -134,7 +141,7 @@ The Lambda function uses a **custom weighted scoring engine**:
 
 ### Steps
 
-```bash
+bash
 # Clone the repo
 git clone https://github.com/AmeyaSawant007/ArtisanAI_Boost.git
 cd ArtisanAI_Boost
@@ -143,14 +150,15 @@ cd ArtisanAI_Boost
 flutter pub get
 
 # Add your own amplifyconfiguration.dart
-# (Configure AWS Amplify with your Cognito details)
+(Configure AWS Amplify with your Cognito details)
 
 # Update API URL in main.dart
-# static const String apiUrl = "YOUR_API_GATEWAY_URL";
+ static const String apiUrl = "YOUR_API_GATEWAY_URL";
 
 # Run the app
 flutter run
-```
+
+---
 
 ### Lambda Setup
 1. Create a Lambda function in `us-east-1`
@@ -164,10 +172,11 @@ flutter run
 ## 👥 Team
 
 **Team Leader:** Ameya V. Sawant
+
 **Team Members:**
-Ameya Sawant
-Siddhesh Mohite
-Jatin Takke
+Ameya Sawant, 
+Siddhesh Mohite, 
+Jatin Takke, 
 Yash Kate
 
 **Hackathon:** AWS AI for Bharat 2026

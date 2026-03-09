@@ -70,7 +70,7 @@ Hindi 🇮🇳 | Marathi | Tamil | Telugu | Bengali | Gujarati | Kannada | Malay
 | 5️⃣ | 🧠 Custom Matching Engine | Weighted scoring + disqualification + tiebreak logic |
 | 6️⃣ | 🤖 Groq AI (Llama 3.3-70b) | Generates culturally rich captions in selected language |
 | 7️⃣ | 🗄️ AWS DynamoDB | Stores scan history, analytics, trending data |
-| 8️⃣ | 📲 App Response | Returns captions, hashtags, GI tag, |
+| 8️⃣ | 📲 App Response | Returns captions, hashtags, GI tag |
 
 ---
 
@@ -98,7 +98,7 @@ artisanai-boost/
 │   ├── login_screen.dart         # Login UI
 │   ├── signup_screen.dart        # Signup UI
 │   ├── history_screen.dart       # Scan history
-│   ├── analytics_screen.dart     # Trending analytics dashboard
+│   ├── analytics_screen.dart     # Analytics dashboard
 │   └── subscription_screen.dart  # Free / Pro / Premium plans
 └── backend/
     └── lambda_function.js        # AWS Lambda handler

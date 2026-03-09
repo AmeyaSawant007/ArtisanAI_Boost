@@ -70,7 +70,7 @@ Hindi 🇮🇳 | Marathi | Tamil | Telugu | Bengali | Gujarati | Kannada | Malay
 | 5️⃣ | 🧠 Custom Matching Engine | Weighted scoring + disqualification + tiebreak logic |
 | 6️⃣ | 🤖 Groq AI (Llama 3.3-70b) | Generates culturally rich captions in selected language |
 | 7️⃣ | 🗄️ AWS DynamoDB | Stores scan history, analytics, trending data |
-| 8️⃣ | 📲 App Response | Returns captions, hashtags, GI tag, WhatsApp link |
+| 8️⃣ | 📲 App Response | Returns captions, hashtags, GI tag, |
 
 ---
 
